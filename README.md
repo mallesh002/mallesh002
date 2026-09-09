@@ -1,386 +1,136 @@
-# 👋 Hi, I'm Mallesh
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="./assets/hero-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img src="./assets/hero-light.svg" alt="Mallesh. Thoughtful APIs. Reliable systems. Full stack developer with a backend focus." width="100%">
+</picture>
 
-### Backend-Focused Full Stack Developer | Node.js | TypeScript | MySQL
+<p align="center">
+  <a href="#about-me">About</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#selected-engineering-work">Work</a> &nbsp;·&nbsp;
+  <a href="#lets-connect">Connect</a>
+</p>
 
-I’m **Bavanna Gari Mallesh**, a backend-focused full-stack developer who enjoys building **scalable, reliable, and production-ready applications**.
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-static.svg">
+    <img src="./assets/intro.gif" alt="From API to interface." width="720">
+  </picture>
+</p>
 
-My primary focus is backend engineering, database design, API development, performance optimization, and building systems that continue to work efficiently as the data grows.
+## About me
 
-> **I don't just build APIs — I care about how the system behaves at scale.**
+I’m **Mallesh**, a full stack developer with a strong backend focus. I work on career platforms that connect people with jobs, resume preparation, and interviews.
 
----
+My work spans **Node.js APIs, MySQL performance, search relevance, and practical AI integrations**. I care about the details behind a feature: how its data is stored, how its queries behave, and how clearly another developer can understand the code.
 
-## 🧑‍💻 About Me
+Alongside development, I review pull requests, support deployments, and help translate requirements into practical implementation plans.
 
-* 🔭 Currently working on **career-tech and job-matching platforms**
-* ⚙️ Backend-focused developer with **Node.js, TypeScript, Express.js & MySQL**
-* 🗄️ Interested in **database architecture, query optimization & scalable systems**
-* 🔎 Experienced with **FULLTEXT search, relevance ranking & job search systems**
-* 🤖 Exploring **LLM-powered validation and intelligent matching systems**
-* 🚀 Working with **large datasets and production backend systems**
-* 🧩 Interested in **clean architecture, maintainable code & system design**
-* 📈 Constantly learning how to build systems that are **faster, simpler and more reliable**
+## Tech stack
 
----
-
-## 🛠️ Tech Stack
-
-### Backend
+**Backend & data**
 
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/nodedotjs-dark.svg"><img src="./assets/stack/nodedotjs-light.svg" alt="Node.js" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/typescript-dark.svg"><img src="./assets/stack/typescript-light.svg" alt="TypeScript" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/express-dark.svg"><img src="./assets/stack/express-light.svg" alt="Express" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/mysql-dark.svg"><img src="./assets/stack/mysql-light.svg" alt="MySQL" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/drizzle-dark.svg"><img src="./assets/stack/drizzle-light.svg" alt="Drizzle ORM" width="146" height="56"></picture>
 </p>
 
-### Database & Data
+**Frontend**
 
 <p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/react-dark.svg"><img src="./assets/stack/react-light.svg" alt="React" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/tailwindcss-dark.svg"><img src="./assets/stack/tailwindcss-light.svg" alt="Tailwind CSS" width="146" height="56"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/reactquery-dark.svg"><img src="./assets/stack/reactquery-light.svg" alt="React Query" width="146" height="56"></picture>
 </p>
 
-**Interested in:**
+**Delivery & operations** &nbsp; Git · GitHub Actions · AWS EC2 / RDS · PM2
 
-* Database indexing
-* Query optimization
-* FULLTEXT search
-* Relevance ranking
-* Table partitioning
-* Data archival
-* Large-table optimization
-* Batch processing
-* Data synchronization
+## Where I contribute
 
-### Frontend
+- **Backend architecture** — TypeScript APIs, clear controller and data-access boundaries, and maintainable business logic.
+- **Database performance** — Index design, query analysis, FULLTEXT search, partitioning, archival, and batch migrations in MySQL.
+- **Search & AI workflows** — Keyword retrieval, relevance scoring, deterministic filters, and LLM-assisted validation.
+- **Technical delivery** — PR reviews, deployment support, production troubleshooting, and coordination across teams.
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
-</p>
+## Selected engineering work
 
-### Tools & Engineering
+### 01 / Job discovery & matching
 
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/PM2-2B037A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
+Work on pipelines that connect candidate preferences and target roles with relevant jobs. My focus includes **MySQL FULLTEXT retrieval, weighted title and description relevance, experience filters, and job-expiry rules**.
 
----
+I’m also working on LLM-based title validation between retrieval and candidate-to-job mapping to check role alignment.
 
-## 🚀 What I Work On
+`Search relevance` `Backend workflows` `AI integration`
 
-### 💼 Career & Job Platforms
+<!-- PROJECT_JOB_DISCOVERY: Replace the URL and remove this comment wrapper when a public link is ready.
+[Repository or case study](REPLACE_JOB_DISCOVERY_URL)
+-->
 
-I work on systems involving:
+### 02 / MySQL performance & data lifecycle
 
-* Job description ingestion
-* Job search and discovery
-* Student-to-job matching
-* Resume preparation workflows
-* Candidate/job recommendations
-* Experience-based job filtering
-* Job lifecycle and expiry management
-* Intelligent job relevance evaluation
+Work on growing datasets through **index tuning, monthly partitioning, archival, and separating large content fields from frequently queried records**. Related work includes batch migrations and scheduled data synchronization.
 
----
+The goal: keep everyday queries efficient while making data maintenance manageable.
 
-## ⚡ Engineering Highlights
+`MySQL` `Query optimization` `Data operations`
 
-### 🗄️ Database Performance
+<!-- PROJECT_DATABASE: Replace the URL and remove this comment wrapper when a public link is ready.
+[Repository or case study](REPLACE_DATABASE_CASE_STUDY_URL)
+-->
 
-Worked with large MySQL datasets and focused on keeping queries efficient as data scales.
+### 03 / Resume & interview platforms
 
-Areas I've worked on include:
+Develop backend workflows connecting **candidate profiles, resume preparation, job applications, and interviews**. I work across API behavior, data models, and frontend integration to turn requirements into usable features.
 
-* Query optimization
-* Index design
-* FULLTEXT indexes
-* Search relevance
-* Table partitioning
-* Data archival
-* Batch data migration
-* Large-table performance analysis
+`Node.js` `Drizzle ORM` `Full stack delivery`
 
-> **A query that works with 10,000 rows isn't necessarily a query that works with 10 million rows.**
+<!-- PROJECT_CAREER_WORKFLOWS: Replace the URL and remove this comment wrapper when a public link is ready.
+[Repository or case study](REPLACE_CAREER_WORKFLOWS_URL)
+-->
 
----
+## How I build
 
-### 🔎 Search & Relevance
+**Understand the requirement. Model the data. Measure the query. Review the change.**
 
-Built and optimized job-search functionality using MySQL FULLTEXT search.
+I prefer clear code, explicit trade-offs, and optimizations backed by evidence. Clean architecture matters most when it makes the next change easier to understand and ship.
 
-Focused on:
+## Public code
 
-* Keyword-based search
-* Boolean search
-* Relevance scoring
-* Title-based ranking
-* Weighted search strategies
-* Search result limits
-* Performance optimization
+[Explore my repositories →](https://github.com/mallesh002?tab=repositories)
 
-The goal is not simply to **find matching jobs**, but to return the **most relevant jobs first**.
+<details>
+  <summary>View my public GitHub snapshot</summary>
 
----
+<br>
 
-### 🤖 LLM Integration
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/github-stats-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="./assets/github-stats-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg">
+  <img src="./assets/github-stats-light.svg" alt="Public repository counts and primary languages, with a snapshot date. Exact values are available in the linked snapshot data." width="100%">
+</picture>
 
-Exploring practical applications of LLMs inside backend workflows.
+Language counts describe public repository metadata, not skill proficiency. [View the snapshot data](./assets/github-stats.json).
 
-One area of focus is adding an **LLM validation layer** to job-matching pipelines:
+</details>
 
-```text
-Student
-   │
-   ▼
-Job Retrieval
-   │
-   ▼
-Relevant Jobs
-   │
-   ▼
-LLM Validation
-   │
-   ▼
-Validated Jobs
-   │
-   ▼
-Student → Job Mapping
-```
+## Let’s connect
 
-The idea is to combine traditional deterministic filtering with intelligent semantic validation.
+Interested in backend engineering, database performance, search systems, or practical AI integrations? Let’s compare notes.
 
----
+**[GitHub](https://github.com/mallesh002)**
 
-### 🔄 Data Synchronization
+<!-- CONTACT_LINKS: Replace the values below, then remove this comment wrapper.
+[LinkedIn](REPLACE_LINKEDIN_URL) · [Portfolio](REPLACE_PORTFOLIO_URL) · [Email](mailto:REPLACE_PUBLIC_EMAIL)
+-->
 
-Worked on backend synchronization workflows involving:
+<br>
 
-* Batch processing
-* BULK INSERT / BULK UPDATE strategies
-* Scheduled synchronization
-* Salesforce integration
-* Sync-state management
-* Failure handling
-* Large-volume data processing
-
----
-
-## 🏗️ Engineering Principles
-
-I try to follow a few principles when building backend systems:
-
-```text
-Clean Code
-    +
-Simple Architecture
-    +
-Efficient Queries
-    +
-Reliable Data
-    +
-Scalable Design
-    =
-Production-Ready Systems
-```
-
-### My priorities
-
-* ✅ Keep business logic maintainable
-* ✅ Avoid unnecessary complexity
-* ✅ Optimize where optimization matters
-* ✅ Design databases intentionally
-* ✅ Think about scale early
-* ✅ Make production debugging easier
-* ✅ Prefer clear code over clever code
-* ✅ Understand the trade-offs behind technical decisions
-
----
-
-## 📌 Featured Work
-
-### 🎯 CareerXcelerator
-
-Career-focused platform involving:
-
-* Job descriptions
-* Student profiles
-* Job matching
-* Resume preparation
-* Job search
-* Candidate workflows
-* Career activation
-
-**Focus:** Backend architecture, database systems, job workflows and performance.
-
----
-
-### 🌎 Local Employment
-
-A job discovery and matching system focused on helping students find relevant employment opportunities.
-
-Key areas include:
-
-* Job ingestion
-* Local job prioritization
-* Government job discovery
-* Student preferences
-* Job matching
-* Job filtering
-* Job lifecycle management
-
----
-
-### 📄 Resume Preparation & Job Matching
-
-Backend workflows connecting student resumes with relevant job opportunities.
-
-Key areas:
-
-* Resume data
-* Job-role matching
-* Job search
-* Search relevance
-* Experience filtering
-* Intelligent validation
-
----
-
-## 📚 Currently Learning
-
-I'm continuously improving in:
-
-* 🏗️ System Design
-* ⚡ Backend Performance
-* 🗄️ Advanced MySQL
-* 🔎 Search & Recommendation Systems
-* 🤖 LLM / AI Integration
-* ☁️ Scalable Backend Architecture
-* 📊 Data Engineering Concepts
-* 🔐 Production Security
-* 🚀 DevOps & Deployment
-
----
-
-## 🎯 What I'm Interested In
-
-I'm particularly interested in engineering problems involving:
-
-```text
-Large Data
-    ↓
-Efficient Storage
-    ↓
-Fast Retrieval
-    ↓
-Intelligent Processing
-    ↓
-Reliable APIs
-    ↓
-Scalable Systems
-```
-
-Especially when a seemingly simple feature becomes an interesting **architecture or performance problem**.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true" />
-</p>
-
----
-
-## 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=transparent&hide_border=true" />
-</p>
-
----
-
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact&hide_border=true" />
-</p>
-
----
-
-## 💡 A Little More About Me
-
-```typescript
-const mallesh = {
-  role: "Backend-Focused Full Stack Developer",
-
-  languages: [
-    "TypeScript",
-    "JavaScript",
-    "SQL"
-  ],
-
-  backend: [
-    "Node.js",
-    "Express.js",
-    "REST APIs"
-  ],
-
-  databases: [
-    "MySQL",
-    "Drizzle ORM"
-  ],
-
-  frontend: [
-    "React",
-    "Tailwind CSS",
-    "React Query"
-  ],
-
-  interests: [
-    "System Design",
-    "Database Optimization",
-    "Search Systems",
-    "LLM Integration",
-    "Scalable Architecture"
-  ],
-
-  mindset: "Build it. Measure it. Understand it. Improve it."
-};
-```
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in discussing:
-
-* Backend engineering
-* System design
-* Database optimization
-* Search systems
-* AI/LLM applications
-* Scalable architecture
-* Interesting engineering problems
-
-If you're working on something interesting, feel free to connect.
-
----
-
-<p align="center">
-  <b>Build systems that are simple to understand, difficult to break, and ready to scale.</b>
-</p>
-
-<p align="center">
-  ⭐ If you find something interesting in my repositories, consider giving it a star.
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <img src="./assets/footer-light.svg" alt="Build with intent. Ship with care. Mallesh / @mallesh002" width="100%">
+</picture>

@@ -1,0 +1,41 @@
+name: Refresh profile snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * 1' # Monday, 04:23 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snapshot
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'mallesh002/mallesh002'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate public repository snapshot
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_github_stats.py --username mallesh002
+
+      - name: Commit changed snapshot assets
+        run: |
+          git add assets/github-stats.json assets/github-stats-*.svg
+          if git diff --cached --quiet; then
+            echo "Snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public GitHub snapshot"
+          git push

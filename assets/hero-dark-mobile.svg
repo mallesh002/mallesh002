@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="530" viewBox="0 0 640 530" role="img"><title>Mallesh. Thoughtful APIs. Reliable systems. Full stack developer with a backend focus.</title><defs>
+      <linearGradient id="brand" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#B8A1FF"/></linearGradient>
+      <radialGradient id="glow"><stop stop-color="#102F47"/><stop offset="1" stop-color="#0B1220"/></radialGradient>
+      <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#263952" stroke-width="0.6"/></pattern>
+      <clipPath id="clip"><rect width="640" height="530" rx="26"/></clipPath>
+    </defs>
+    <g clip-path="url(#clip)">
+      <rect width="640" height="530" fill="#0B1220"/>
+      <ellipse cx="580" cy="265" rx="450" ry="420" fill="url(#glow)"/>
+      <rect x="320" width="320" height="530" fill="url(#grid)" opacity="0.52"/>
+      <path d="M1 1H639" stroke="url(#brand)" stroke-width="4"/>
+    <g transform="translate(436 25) scale(0.55)">
+      <circle cx="150" cy="150" r="144" fill="none" stroke="#263952"/>
+      <circle cx="150" cy="150" r="118" fill="none" stroke="#263952" stroke-dasharray="2 12"/>
+      <path d="M6 150H47 M253 150H294 M150 6V47 M150 253V294" stroke="#67E8F9" stroke-width="2"/>
+      <rect x="54" y="54" width="192" height="192" rx="38" fill="#111D30" stroke="#263952" transform="rotate(-12 150 150)"/>
+      <rect x="54" y="54" width="192" height="192" rx="38" fill="#111D30" stroke="#263952" transform="rotate(8 150 150)"/>
+      <path d="M88 205V100L150 172L212 100V205" fill="none" stroke="#B8A1FF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.2" transform="translate(5 7)"/>
+      <path d="M88 198V93L150 165L212 93V198" fill="none" stroke="url(#brand)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="274" cy="78" r="6" fill="#67E8F9"/>
+      <circle cx="35" cy="233" r="5" fill="#B8A1FF"/>
+    </g><text x="38" y="61" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3">M / 002</text><text x="38" y="178" fill="#F1F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="87" font-weight="700" letter-spacing="-4">Mallesh.</text><text x="40" y="259" fill="#F1F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="-1">Thoughtful APIs.</text><text x="40" y="311" fill="#F1F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="-1">Reliable systems.</text><text x="40" y="376" fill="#A6B6CC" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" >Full stack developer</text><text x="40" y="414" fill="#A6B6CC" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" >Backend focus</text><path d="M40 455H600" stroke="#263952"/><text x="40" y="493" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="2">APIs  /  DATA  /  AI</text></g><rect x=".5" y=".5" width="639" height="529" rx="26" fill="none" stroke="#263952"/></svg>

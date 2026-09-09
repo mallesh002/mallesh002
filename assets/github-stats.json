@@ -1,0 +1,13 @@
+{
+  "username": "mallesh002",
+  "updated_utc": "2026-09-09",
+  "public_repositories": 7,
+  "repositories_by_primary_language": {
+    "TypeScript": 2,
+    "JavaScript": 1,
+    "TeX": 1,
+    "Unclassified": 3
+  },
+  "scope": "Public repositories owned by this account, including forks. One primary language per repository; Unclassified means GitHub returned no primary language.",
+  "source": "https://api.github.com/users/mallesh002/repos"
+}
